@@ -1,1 +1,2 @@
-# Sms
+# SmsTemplate
+- Sms template for NetGsm
