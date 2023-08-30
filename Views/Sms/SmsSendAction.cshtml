@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "SMS Gönder";
+}
+
+<h1>SMS Gönder</h1>
+
+@if (!string.IsNullOrEmpty(ViewBag.Result))
+{
+    <p>API Yanıtı: @ViewBag.Result</p>
+}
+
+<a href="~/Sms/SmsSendAction/">SMS Gönder</a>
